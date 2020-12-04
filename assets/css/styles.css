@@ -423,8 +423,54 @@ header nav ul li a {
 
 /*------------------------------------------------------ CONTACTUS.HTML ------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) {
+.contact {
+  display: block;
+  background-color: #3B5B3B;
+  color: white;
+  padding: 25px;
+  line-height: 25px;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
 
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-family: 'Quintessential', cursive;
+}
+
+.map {
+  display: block;
+  background-image: url(../image/map.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    border-radius: 20px;
+  }
+
+  .map {
+    border-radius: 20px;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact {
+    border-radius: 20px;
+  }
+
+  .map {
+    border-radius: 20px;
+    height: 600px;
+  }
 }
 
 /*------------------------------------------------------ PROGRAM.HTML ------------------------------------------------------*/
