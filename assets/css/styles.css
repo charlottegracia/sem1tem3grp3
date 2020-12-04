@@ -13,10 +13,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-.bodymargin {
-  width: 80%;
-  margin: 0 auto;
-}
+  .bodymargin {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -136,6 +136,33 @@ header nav ul li a {
   width: 70px;
   height: 20px;
   border: 1px solid white;
+}
+.mobile-buttons li:hover {
+  background-color: #2a412a;
+}
+
+#redbutton1 {
+  background-color: #bb2818;
+}
+
+#redbutton2 {
+  background-color: #bb2818;
+}
+
+#redbutton3 {
+  background-color: #bb2818;
+}
+
+#redbutton1:hover {
+  background-color: #992013;
+}
+
+#redbutton2:hover {
+  background-color: #992013;
+}
+
+#redbutton3:hover {
+  background-color: #992013;
 }
 
 .front-page-image .mobile-buttons li a {
@@ -397,7 +424,7 @@ header nav ul li a {
 /*------------------------------------------------------ CONTACTUS.HTML ------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) {
- 
+
 }
 
 /*------------------------------------------------------ PROGRAM.HTML ------------------------------------------------------*/
